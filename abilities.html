@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="./styles/general.css">
+    <link rel="stylesheet" href="./styles/abilities.css">
+
+    <link rel="icon" type="image/x-icon" href="./images/doomfist.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+
+
+
+
+
+
+<title>Doomfist Abilities</title>
+
+
+
+</head>
+
+<body>
+    <header>
+        <button class="menu-toggle" aria-label="Open navigation menu">☰</button>
+        <img src="./images/Overwatch-logo.png" alt="Overwatch Logo" id="nav-logo">
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="abilities.html" class="active">Abilities</a>
+            <a href="matchups.html">Matchups</a>
+        </nav>
+    </header>
+        <div class="featured-story" style="background-image: url('./images/doom-wallpaper.jpg');">
+            <div class="text-overlay">
+                <h1>ABILITIES</h1>
+                <p>Doomfist is a highly mobile frontline fighter that can deal significant <br>burst damage to his enemies.</p>
+            </div>
+        </div>
+        <div class="video-and-abilities-container">
+            <div class="abilities-container">
+                <button class="ability-btn" data-video="./videos/handcannon.mp4" data-description="Short-range burst damage weapon with a spread; reloads automatically.">
+                    <div class="button-content">
+                        <img src="./images/handcannon.png" alt="handcannon" class="circle-image">
+                    </div>
+                    <span>Hand Cannon</span>
+                </button>
+                <button class="ability-btn" data-video="./videos/rocketpunch.mp4" data-description="A charging attack that damages and knocks back enemies. Extra damage if the enemy hits a wall.">
+                    <div class="button-content">
+                        <img src="./images/rocketpunch.png" alt="rocketpunch" class="circle-image">
+                    </div>
+                    <span>Rocket Punch</span>
+                </button>
+                <button class="ability-btn" data-video="./videos/seismicslam.mp4" data-description="Doomfist leaps forward and smashes into the ground, knocking nearby enemies toward him.">
+                    <div class="button-content">
+                        <img src="./images/seismicslam.png" alt="seismicslam" class="circle-image">
+                    </div>
+                    <span>Seismic Slam</span>
+                </button>
+                <button class="ability-btn" data-video="./videos/powerblock.mp4" data-description="Reduces incoming damage. When fully charged, empowers Rocket Punch.">
+                    <div class="button-content">
+                        <img src="./images/powerblock.png" alt="powerblock" class="circle-image">
+                    </div>
+                    <span>Power Block</span>
+                </button>
+                <button class="ability-btn" data-video="./videos/meteorstrike.mp4" data-description="Doomfist leaps into the sky and crashes down, dealing area damage and stunning enemies.">
+                    <div class="button-content">
+                        <img src="./images/meteorstrike.png" alt="meteorstrike" class="circle-image">
+                    </div>
+                    <span>Meteor Strike</span>
+                </button>
+            </div>
+
+            <div class="video-container">
+                <h2 id="abilityDescription">Short-range burst damage weapon with a spread; reloads automatically.</h2>
+                <video id="abilityVideo" width="1080" controls>
+                    <source src="./videos/handcannon.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+     
+
+        <footer class="site-footer">
+            <div class="footer-bottom">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="abilities.html">Abilities</a></li>
+                    <li><a href="#matchups.html">Matchups</a></li>
+                </ul>
+                <p>&copy; Web Development © 2024, Root Yu</p>
+            </div>
+        </footer>       
+
+
+<script src="./scripts/script.js"></script>
+<script src="./scripts/abilities.js"></script>
+
+</body>
+
+</html>
