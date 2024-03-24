@@ -70,6 +70,7 @@ header nav a {
 
 header nav a:hover {
     background-color: aqua;
+    cursor: pointer;
 }
 
 header nav a.active {
