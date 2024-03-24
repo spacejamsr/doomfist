@@ -1,0 +1,141 @@
+
+@media (max-width: 768px) {
+
+    .origin-text h2 {
+        font-size: 50px;
+    }
+    
+    .omnic-section {
+        gap: 20px;
+        align-items: center;
+        padding: 50px;
+        background-color: #0046ad;
+        color: white;
+        margin-top: 50px;
+    }
+
+    .omnic-content, .omnic-image {
+        width: 100%;
+        text-align: center;
+    }
+
+    .omnic-image {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .omnic-image img {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+        border: none;
+    }
+
+    .omnic-content {
+        display: block;
+    }
+
+}
+
+
+
+.doomfist-intro.image-overlay {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-column: 1 / -1;
+
+
+}
+
+.origin-text {
+    text-align: center;
+    color: #FFFFFF;
+    width: 80%;
+    padding: 20px;
+}
+
+
+
+.origin-text h2 {
+    font-size: 100px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.origin-text p {
+    font-size: 25px;
+}
+
+.video-container {
+    width: 80%;
+    max-width: 960px;
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: auto; 
+    aspect-ratio: 16 / 9;
+}
+
+.omnic-section {
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    gap: 20px;
+    align-items: center;
+    padding: 50px;
+    background-color: #0046ad;
+    color: white;
+    margin-top: 50px;
+}
+
+.talon-section {
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    gap: 20px;
+    align-items: center;
+    padding: 50px;
+    background-color: #0d060d;
+    color: white;
+}
+
+.omnic-content, .talon-content {
+    grid-column: 1 / 2;
+}
+
+.omnic-content h2, .talon-content h2 {
+    font-size: 50px;
+}
+
+.omnic-content p, .talon-content p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+
+.talon-image img {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #ffffff;
+}
+
+.omnic-image img {
+    width: 100%;
+    height: auto;
+    border: 3px solid #ffffff;
+}
+
