@@ -1,0 +1,257 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header {
+    color: #fff;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+#nav-logo {
+    height: 50px;
+    margin-right: auto;
+    margin-left: 10%;
+    order: 2;
+    transition: transform 0.3s ease;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15%;
+    order: 3;
+    width: 100%;
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.menu-toggle:hover {
+    box-shadow: 0 0 5px blue;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15%;
+    width: 100%;
+}
+
+header nav a {
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50%;
+    border: 2px solid transparent;
+}
+
+header nav a:hover {
+    background-color: aqua;
+    cursor: pointer;
+}
+
+header nav a.active {
+    border-color: aqua;
+    background-color: aqua;
+    color: #fff;
+}
+
+header nav a:visited {
+    color: grey;
+}
+
+@media (max-width: 768px) {
+    header nav {
+        flex-direction: column; 
+        align-items: flex-start;
+        width: auto;
+    }
+
+    .navigation {
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        order: 3;
+        width: auto;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+
+    }
+
+    .navigation.show {
+        display: flex;
+    }
+
+    .navigation a {
+        display: block;
+        text-align: center;
+        padding: 10px;
+    }
+
+    navigation a:last-child {
+        border-bottom: none;
+    }
+
+    .menu-toggle {
+        display: block;
+        order: 1;
+    }
+
+    #nav-logo {
+        order: 2;
+        margin: 0 auto;
+    }
+
+    .featured-story {
+        height: auto;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .text-overlay {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    .text-overlay h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .text-overlay p {
+        text-align: center;
+    }
+
+    .site-footer .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .site-footer .container > div {
+        margin-bottom: 20px;
+    }
+
+   
+}
+
+.featured-story {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    grid-column: 1 / -1;
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.text-overlay {
+    position: absolute;
+    left: 0.5%;
+    max-width: 100vw;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.text-overlay h1 {
+    font-size: 100px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.text-overlay p {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.roboto-slab-robot {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+  .teko-tek {
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Teko', sans-serif;
+}
+
+.site-footer {
+    background-color: darkblue;
+    color: white;
+}
+
+
+
+.site-footer h3 {
+    margin-top: 0;
+}
+
+.site-footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.site-footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.site-footer ul li a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 10px;
+    border-top: 1px solid #444;
+
+}
+
+.footer-bottom h3, .footer-bottom ul, .footer-bottom p {
+    margin-bottom: 20px;
+}
+
+.footer-bottom h3 {
+    font-size: 20px;
+}
+

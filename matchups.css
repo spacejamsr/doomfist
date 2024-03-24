@@ -1,0 +1,103 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+
+}
+
+.matchups-container {
+    line-height: 1.6em;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+    background-image: url('../images/background-3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.matchup {
+
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px aqua;
+}
+
+.tips ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.tips li::before {
+    content: "•";
+    color: aqua;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+h2 {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.tracer-img {
+    max-width: 50%;
+    height: 75vh;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.roadhog-img {
+    max-width: 50%;
+    height: 75vh;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.sombra-img {
+    max-width: 50%;
+    height: 75vh;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+.tips {
+    margin-top: 100px;
+    align-items: center;
+    line-height: 1.6em;
+    font-weight: bold;
+}
+
+.tips ul {
+    margin-top: 50px;
+}
+
+p {
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.tips h3 {
+    font-size: 50px;
+    text-align: center;
+}
